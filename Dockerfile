@@ -1,7 +1,5 @@
 FROM heroku/heroku:22
 
-LABEL org.opencontainers.image.authors="stewart.anderson@salesforce.com"
-
 ENV DEBIAN_FRONTEND=noninteractive
 ARG SALESFORCE_CLI_VERSION=latest-rc
 ARG SF_CLI_VERSION=latest-rc
