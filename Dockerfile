@@ -20,7 +20,7 @@ RUN npm install --global sfdx-cli@${SALESFORCE_CLI_VERSION} --ignore-scripts
 RUN npm install --global @salesforce/cli@${SF_CLI_VERSION}
 
 # INSTALL TESTIM.IO
-RUN npm install --global @testim/testim-cli
+# RUN npm install --global @testim/testim-cli
 
 # INSTALL DEPENDENCIES
 RUN apt-get update && apt-get install --assume-yes openjdk-11-jdk-headless jq git python3-venv python3-pip
