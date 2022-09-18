@@ -2,6 +2,7 @@
 Docker Image File with SalesforceDX and CumulusCI. For use with Remote Development
 
 ## Requirements
+Docker
 VSCode with SalesforceDX Pack and Remote Development Pack
 
 https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode-expanded
