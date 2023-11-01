@@ -16,3 +16,7 @@ https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remo
 3. Done
 
 The first time you run this it will build the image, so can take a few minutes to complete.
+
+## Image now in GHCR.io
+
+Click on the attacked package for details
