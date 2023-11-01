@@ -16,7 +16,9 @@
 
         // Add the IDs of extensions you want installed when the container is created.
         "extensions": [
-          "salesforce.salesforcedx-vscode",
+          "salesforce.salesforcedx-vscode-expanded",
+          "cumulusci.cci",
+          "redhat.vscode-yaml",
           "redhat.vscode-xml",
           "dbaeumer.vscode-eslint",
           "esbenp.prettier-vscode"
