@@ -11,4 +11,4 @@ RUN python3 -m pip install --upgrade pip
 RUN pip install pipx
 RUN pipx ensurepath
 RUN pipx install cumulusci
-RUN cci robot install_playwright
+#RUN cci robot install_playwright
