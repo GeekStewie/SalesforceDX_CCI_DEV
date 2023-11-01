@@ -1,18 +1,19 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/sfdx-project
 {
-    "name": "Salesforce Container",
+    "name": "SF CumulusCI Container",
     "dockerFile": "Dockerfile",
+    "forwardPorts": [7788,1717],
 
     // Configure tool-specific properties.
     "customizations": {
       // Configure properties specific to VS Code.
       "vscode": {
         // Set *default* container specific settings.json values on container create.
-        "settings": { 
-          "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk-amd64"
+        "settings": {
+          "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-17-openjdk-amd64"
         },
-        
+
         // Add the IDs of extensions you want installed when the container is created.
         "extensions": [
           "salesforce.salesforcedx-vscode",
@@ -23,4 +24,4 @@
       }
     }
   }
-  
+
