@@ -1,4 +1,4 @@
-# SalesforceDX_CCI_DEV§
+# SalesforceDX_CCI_DEV
 
 Docker Image File with SalesforceDX and CumulusCI. For use with Remote Development
 
