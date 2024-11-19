@@ -20,3 +20,7 @@ The first time you run this it will build the image, so can take a few minutes t
 ## Image now in GHCR.io
 
 Click on the attacked package for details
+
+## Thanks
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.paypal.com/paypalme/geekstewie?country.x=GB&locale.x=en_GB)
